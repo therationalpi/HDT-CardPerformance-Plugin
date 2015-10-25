@@ -3,13 +3,13 @@ using System.Windows.Controls;
 
 using Hearthstone_Deck_Tracker.Plugins;
 
-namespace PluginExample
+namespace CardPerformance
 {
     public class MyPlugin : IPlugin
     {
 		public string Author
 		{
-			get { return "Name"; }
+			get { return "therationalpi"; }
 		}
 
 		public string ButtonText
@@ -19,7 +19,7 @@ namespace PluginExample
 
 		public string Description
 		{
-			get { return "Description"; }
+			get { return "Gives the card performance as measured by the win rate in games where the given card is drawn. Can be used to evaluate card choices in deck building."; }
 		}
 
 		public MenuItem MenuItem
@@ -29,7 +29,7 @@ namespace PluginExample
 
 		public string Name
 		{
-			get { return "PluginExample"; }
+			get { return "Card Performance"; }
 		}
 
 		public void OnButtonPress()
@@ -51,7 +51,7 @@ namespace PluginExample
 
 		public Version Version
 		{
-			get { return new Version(0, 0, 2); }
+			get { return new Version(0, 0, 1); }
 		}
     }
 }

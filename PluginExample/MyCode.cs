@@ -11,7 +11,7 @@ using Hearthstone_Deck_Tracker.Enums;
 using Hearthstone_Deck_Tracker.Hearthstone;
 using Hearthstone_Deck_Tracker.Hearthstone.Entities;
 
-namespace PluginExample
+namespace CardPerformance
 {
 	public class MyCode
 	{
